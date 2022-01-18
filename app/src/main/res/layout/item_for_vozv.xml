@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/main_see_lay"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="40">
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:text="1."
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_weight="36"
+                    android:fontFamily="@font/open_sans_semibold"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:text="Хирургические инструменты"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Возврат "
+                    android:textColor="@color/text_color"
+                    android:fontFamily="@font/open_sans"
+                    android:textSize="14sp" />
+
+
+                <Button
+                    android:id="@+id/btn_minus"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_plus_minus"
+                    android:text="-"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/select_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/open_sans"
+                    android:background="@drawable/qwentity"
+                    android:text="1"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/open_sans"
+                    android:background="@drawable/qwentity"
+                    android:text="/"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/total_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:layout_marginStart="4dp"
+                    android:textColor="@color/text_color"
+                    android:fontFamily="@font/open_sans"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btn_plus"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/btn_plus_minus"
+                    android:text="+"
+                    android:textColor="@color/text_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|end"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:checked="false"
+                android:layout_gravity="bottom"
+                android:button="@drawable/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Цена"
+            android:textColor="@color/text_color"
+            android:textSize="12sp"
+            android:fontFamily="@font/open_sans"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Итог"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="12sp"
+            android:fontFamily="@font/open_sans"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="42dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="horizontal"
+            android:background="@drawable/text_buy"
+            android:textSize="14sp"
+            android:fontFamily="@font/open_sans">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="120c"
+                android:textColor="@color/text_color" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="6dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="42dp"
+            android:background="@drawable/text_buy"
+            android:textSize="14sp"
+            android:fontFamily="@font/open_sans">
+
+            <TextView
+                android:id="@+id/total_price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="1200c"
+                android:textColor="@color/text_color" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/line_color" />
+</LinearLayout>

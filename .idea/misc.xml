@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/drawable/ic_info_icon.xml" value="0.378125" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/activity_add.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/activity_oformit.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/activity_scanner.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/choosed_item_recycler.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/data.xml" value="0.2" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/info_thing.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/item_for_vozv.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/list_items.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/list_items_see.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/main_page.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/off_switch.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/on_switch.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/progress_dialog_view.xml" value="0.33" />
+        <entry key="..\:/Users/CP/Desktop/Kotlin/Limbus/app/src/main/res/layout/recycler_item.xml" value="0.17603850050658562" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

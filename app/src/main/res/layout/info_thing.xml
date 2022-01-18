@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_marginTop="60dp"
+    android:background="@drawable/data_bac_sheet"
+    tools:ignore="RtlSymmetry">
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_union" />
+
+    <TextView
+        android:id="@+id/type_buyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Розничный покупатель"
+        android:textColor="@color/text_color"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/about_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/type_buyer"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans"
+                android:gravity="left"
+                android:text="Наименование:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/naimenavanie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="right"
+                android:text="Торговая точка №1"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                tools:ignore="InvalidId" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans"
+                android:gravity="left"
+                android:text="Адрес:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="right"
+                android:text="г.Куляб, ул.Нусратулло Махсум 12А"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans"
+                android:gravity="left"
+                android:text="ФИО:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/fio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="right"
+                android:text="Каримов Сафамин Курбанович"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans"
+                android:gravity="left"
+                android:text="Телефон:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="right"
+                android:text="+992 23 345 67-22"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans"
+                android:gravity="start"
+                android:text="Чек №:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/prodazha_nomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="end"
+                android:text="23"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans"
+                android:gravity="start"
+                android:text="Дата и время:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="end"
+                android:text="21/03/2021 12:26"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_below="@+id/about_user"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/line_color" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recSeeThing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/check"
+        android:visibility="gone"
+        android:layout_below="@id/line2"
+        android:layout_marginTop="8dp"
+        tools:listitem="@layout/list_items_see" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recSeeThingVozvrat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/check"
+        android:layout_below="@id/line2"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        tools:listitem="@layout/item_for_vozv" />
+
+    <RelativeLayout
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="-16dp"
+            android:layout_marginStart="-16dp"
+            android:layout_height="1.5dp"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:id="@+id/layout_vozvrat"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="2"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@+id/line4"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/cancel_vozvrat"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_back_out"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:layout_marginEnd="6dp"
+                android:text="Отмена"
+                android:textAllCaps="false"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <Button
+                android:id="@+id/vozvrat_main"
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_back"
+                android:fontFamily="@font/open_sans"
+                android:gravity="center"
+                android:layout_marginStart="6dp"
+                android:text="Возврать"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/isMainListLay"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="@string/CheckNaSummu"
+                android:textColor="@color/text_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/check_na_summu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="0c"
+                android:textColor="@color/main_color"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/vozvrat_btn"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_below="@+id/check_na_summu"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/button_back"
+                android:fontFamily="@font/open_sans"
+                android:text="Возврать продажу"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Лимбус</string>
+    <string name="top_text">Управление складом</string>
+    <string name="login">Вход в склад</string>
+    <string name="text_btn">Вход</string>
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="number_reciept">Номер чека</string>
+    <string name="from">От</string>
+    <string name="to">До</string>
+    <string name="quantity_reciept">Количество\nчеков</string>
+    <string name="refund_amound">Сумма\nвозврата</string>
+    <string name="revenue">Выручка</string>
+    <string name="text_main_btn">Оформить продажу</string>
+    <string name="CheckNaSummu">Чек на сумму:</string>
+    <string name="ckidka">Скидка</string>
+    <string name="off_s">Вы действительно хотите закрыть смену?</string>
+    <string name="on_s">Вы действительно хотите открыть смену?</string>
+    <integer name="size_of_switch">12</integer>
+
+</resources>
